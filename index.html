@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crown & Dagger</title>
+    <link rel="shortcut icon" href="images/blank.png" type="image/png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <section class="bg">
+      
+      
+<div class="player">
+      <button class="play" onclick="togglePlayPause()">
+        <i id="playPauseIcon" class="fas fa-play"></i>
+    </button>
+       
+        <button
+          class="volup" onclick="document.getElementById('player').volume += 0.1">
+          <i class="fas fa-volume-up"></i>
+        </button>
+        <button
+          class="voldown" onclick="document.getElementById('player').volume -= 0.1">
+          <i class="fas fa-volume-down"></i>
+        </button>
+        <button class="about"><a href="./about.html">
+          <i class="fas fa-info-circle"></i></a>
+      </button>
+      </div>
+      <audio autoplay loop id="player" src="audio/got.mp3">
+        Your browser does not support the element.
+      </audio>
+
+      <img src="./images/cd3-removebg-preview.png" alt="" class="text"/>
+
+      
+      <div class="middle">
+       <div class="options">
+          <img src="./images/gif3.gif" class="token" alt="memory game" />
+          <button class="button">
+            <a href="memo.html">Memory Game</a>
+          </button>
+        </div>
+        
+        <div class="options">
+          <img src="./images/gethouse.jpg" class="token" />
+
+          <button class="button">
+            <a href="map.html">Explore the seven Kingdoms</a>
+          </button>
+          
+        </div>
+         <div class="options">
+          <img src="./images/gif7.webp" class="token" />
+
+          <button class="button">
+            <a href="getyourhouse.html">Explore Seasons</a>
+          </button>
+        </div>
+      </div>
+       
+
+      <script>
+        var isPlaying = false;
+    
+        function togglePlayPause() {
+            var player = document.getElementById('player');
+            var playPauseIcon = document.getElementById('playPauseIcon');
+    
+            if (isPlaying) {
+                player.pause();
+                playPauseIcon.classList.remove('fa-pause');
+                playPauseIcon.classList.add('fa-play');
+            } else {
+                player.play();
+                playPauseIcon.classList.remove('fa-play');
+                playPauseIcon.classList.add('fa-pause');
+            }
+    
+            isPlaying = !isPlaying;
+        }
+    </script>
+      
+    </section>
+  </body>
+</html>

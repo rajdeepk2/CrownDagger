@@ -1,0 +1,241 @@
+{
+  "kind": "youtube#playlistListResponse",
+  "etag": "bORRB6APV0KkeBL-Ien0ELDYwx4",
+  "nextPageToken": "CAUQAA",
+  "pageInfo": {
+    "totalResults": 19,
+    "resultsPerPage": 5
+  },
+  "items": [
+    {
+      "kind": "youtube#playlist",
+      "etag": "yBOtFqE_4ZC8y3204Gn4Vg5q2F0",
+      "id": "PLdyYtz46NolaHdWwBFyOL9_GwwPTKp8Wh",
+      "snippet": {
+        "publishedAt": "2022-08-23T21:16:09Z",
+        "channelId": "UCQzdMyuz0Lf4zo4uGcEujFw",
+        "title": "The Official Game of Thrones Podcast: House of the Dragon Season 1",
+        "description": "Welcome to the Official Game of Thrones Podcast: House of the Dragon produced by HBO Max and iHeartRadio. This show is the go-to audio destination to unpack and discuss everything Game of Thrones for casual and die-hard fans alike, starting with the new HBO Original series, House of the Dragon. Join our hosts Jason Concepcion (X-Ray Vision) and Greta Johnsen (WBEZ's Nerdette podcast) every week as they share insights, fan questions, exclusive interviews with the cast and crew, and a whole lot of thoughts and opinions. It’s the only podcast with the inside scoop on all things Game of Thrones. It is also produced in association with Crooked Media.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/_lyhOfYxqiU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/_lyhOfYxqiU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/_lyhOfYxqiU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/_lyhOfYxqiU/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/_lyhOfYxqiU/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "GameofThrones",
+        "localized": {
+          "title": "The Official Game of Thrones Podcast: House of the Dragon Season 1",
+          "description": "Welcome to the Official Game of Thrones Podcast: House of the Dragon produced by HBO Max and iHeartRadio. This show is the go-to audio destination to unpack and discuss everything Game of Thrones for casual and die-hard fans alike, starting with the new HBO Original series, House of the Dragon. Join our hosts Jason Concepcion (X-Ray Vision) and Greta Johnsen (WBEZ's Nerdette podcast) every week as they share insights, fan questions, exclusive interviews with the cast and crew, and a whole lot of thoughts and opinions. It’s the only podcast with the inside scoop on all things Game of Thrones. It is also produced in association with Crooked Media."
+        }
+      },
+      "contentDetails": {
+        "itemCount": 15
+      }
+    },
+    {
+      "kind": "youtube#playlist",
+      "etag": "k55s6ZE-YrCST5nI-tYnUL_ITGY",
+      "id": "PLdyYtz46NolYG6lB5_6CWNbXP-1UtmO2T",
+      "snippet": {
+        "publishedAt": "2022-08-19T22:20:29Z",
+        "channelId": "UCQzdMyuz0Lf4zo4uGcEujFw",
+        "title": "House of the Dragon | Season 1",
+        "description": "New episodes premiere Sundays at 9pm ET on HBO Max.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/DP2zSolimnA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/DP2zSolimnA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/DP2zSolimnA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/DP2zSolimnA/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/DP2zSolimnA/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "GameofThrones",
+        "localized": {
+          "title": "House of the Dragon | Season 1",
+          "description": "New episodes premiere Sundays at 9pm ET on HBO Max."
+        }
+      },
+      "contentDetails": {
+        "itemCount": 39
+      }
+    },
+    {
+      "kind": "youtube#playlist",
+      "etag": "3wsN0H5DA1rfVStIuUASD9p_SFE",
+      "id": "PLdyYtz46NolbSqJFouFQtRKKiaYLFUxwc",
+      "snippet": {
+        "publishedAt": "2021-04-12T14:17:51Z",
+        "channelId": "UCQzdMyuz0Lf4zo4uGcEujFw",
+        "title": "A Decade of Thrones",
+        "description": "#GameofThrones is now streaming on HBO Max",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ePpC5m5WK_Y/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ePpC5m5WK_Y/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ePpC5m5WK_Y/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/ePpC5m5WK_Y/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/ePpC5m5WK_Y/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "GameofThrones",
+        "localized": {
+          "title": "A Decade of Thrones",
+          "description": "#GameofThrones is now streaming on HBO Max"
+        }
+      },
+      "contentDetails": {
+        "itemCount": 14
+      }
+    },
+    {
+      "kind": "youtube#playlist",
+      "etag": "exVlCaHqSeA1DtjNTSYJ_8oMRts",
+      "id": "PLdyYtz46NolbHLeLUpNBFKJa56AcpVU9h",
+      "snippet": {
+        "publishedAt": "2019-04-06T03:23:50Z",
+        "channelId": "UCQzdMyuz0Lf4zo4uGcEujFw",
+        "title": "The Cast Remembers | Game of Thrones | HBO",
+        "description": "#GameofThrones is now streaming on HBO Max",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/vJFLi8BPe9Y/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/vJFLi8BPe9Y/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/vJFLi8BPe9Y/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/vJFLi8BPe9Y/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/vJFLi8BPe9Y/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "GameofThrones",
+        "localized": {
+          "title": "The Cast Remembers | Game of Thrones | HBO",
+          "description": "#GameofThrones is now streaming on HBO Max"
+        }
+      },
+      "contentDetails": {
+        "itemCount": 13
+      }
+    },
+    {
+      "kind": "youtube#playlist",
+      "etag": "57-lZ54kNHmtyEH3DTKXKKnYxOg",
+      "id": "PLdyYtz46NolaqzaU78qyT1wOYxZpOlghs",
+      "snippet": {
+        "publishedAt": "2019-03-27T17:14:39Z",
+        "channelId": "UCQzdMyuz0Lf4zo4uGcEujFw",
+        "title": "Throne of the Crypt | Quest #ForTheThrone (HBO)",
+        "description": "#GameofThrones is now streaming on HBO Max",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/YO5JYOiDzxg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/YO5JYOiDzxg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/YO5JYOiDzxg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/YO5JYOiDzxg/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/YO5JYOiDzxg/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "GameofThrones",
+        "localized": {
+          "title": "Throne of the Crypt | Quest #ForTheThrone (HBO)",
+          "description": "#GameofThrones is now streaming on HBO Max"
+        }
+      },
+      "contentDetails": {
+        "itemCount": 3
+      }
+    }
+  ]
+}

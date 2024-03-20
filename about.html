@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    
+    <link rel="icon" href="./images/image.png">
+    
+    <script src="./js/main.js"></script>
+</head>
+<body>
+
+ 
+
+  <section id="home" class="home">
+      <h1>Crown & Dagger</h1>
+      <h2>--Explore the realms & many more</h2>
+    
+      <div class="player"> 
+        <button class="play" onclick="togglePlayPause()">
+          <i id="playPauseIcon" class="fas fa-play"></i>
+      </button>
+         
+          <button
+            class="volup" onclick="document.getElementById('player').volume += 0.1">
+            <i class="fas fa-volume-up"></i>
+          </button>
+          <button
+            class="voldown" onclick="document.getElementById('player').volume -= 0.1">
+            <i class="fas fa-volume-down"></i>
+          </button>
+          
+        <button class="goback"><a href="./index.html"><i class="fas fa-home"></i></a></button> 
+        
+      </div>
+      <audio
+      autoplay loop
+      src="audio/got1.mp3" id="player">
+          Your browser does not support the
+           element.
+    </audio>
+
+  </section>
+
+  <section id="about" class="about">
+    <h1 class="heading">Game of Thrones</h1>
+    <div class="row">
+        <div class="content">
+            <!-- <h3>crafting the latest and most compelling series in the entertainment industry!</h3> -->
+            <p>  Set in a medieval-like world filled with political intrigue, power struggles, and supernatural elements, the series follows noble houses vying for the Iron Throne and control over the Seven Kingdoms. With its morally ambiguous characters, unexpected plot twists, and complex relationships, "Game of Thrones" became a cultural phenomenon, blending elements of fantasy, drama, and political thriller. </p>
+          
+        </div>
+    </div>
+  </section>       
+  <section id="gallery" class="gallery">
+    <h2 class="gallery-heading">Gallery</h2>
+    <div class="image-grid">
+        <img src="images/img1.jpeg" alt="Image 1">
+        <img src="images/img2.jpeg" alt="Image 2">
+        <img src="images/img3.jpeg" alt="Image 3">
+        <img src="images/img4.jpeg" alt="Image 1">
+        <img src="images/img8.jpeg" alt="Image 2">
+        <img src="images/img7.jpeg" alt="Image 3">
+        <img src="images/img5.jpeg" alt="Image 1">
+        <img src="images/img9.jpeg" alt="Image 2">
+        <img src="images/img11.jpeg" alt="Image 3">
+        <img src="images/img6.jpeg" alt="Image 1">
+        <img src="images/img10.jpeg" alt="Image 2">
+        <img src="images/img12.jpeg" alt="Image 2">
+        <img src="images/img13.jpeg" alt="Image 1">
+        <img src="images/img15.jpeg" alt="Image 2">
+        <img src="images/img16.jpeg" alt="Image 3">
+        <img src="images/img14.jpeg" alt="Image 1">
+        <img src="images/img18.jpeg" alt="Image 2">
+        <img src="images/img20.jpeg" alt="Image 3">
+        <img src="images/img17.jpeg" alt="Image 1">
+        <img src="images/img19.jpeg" alt="Image 2">
+        <!-- Add more images as needed -->
+    </div>
+</section>
+  </div>
+  
+  
+
+  <script>
+    var isPlaying = false;
+
+    function togglePlayPause() {
+        var player = document.getElementById('player');
+        var playPauseIcon = document.getElementById('playPauseIcon');
+
+        if (isPlaying) {
+            player.pause();
+            playPauseIcon.classList.remove('fa-pause');
+            playPauseIcon.classList.add('fa-play');
+        } else {
+            player.play();
+            playPauseIcon.classList.remove('fa-play');
+            playPauseIcon.classList.add('fa-pause');
+        }
+
+        isPlaying = !isPlaying;
+    }
+</script>
+</body>
+</html>

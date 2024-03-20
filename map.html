@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seven Kingdoms</title>
+    <link rel="stylesheet" href="css/map.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="shortcut icon" href="images/blank.png" type="image/png">
+   
+</head>
+<body>
+    <section class="bg">
+
+
+    <div class="player"> 
+        <button class="play" onclick="togglePlayPause()">
+            <i id="playPauseIcon" class="fas fa-play"></i>
+        </button>
+           
+            <button
+              class="volup" onclick="document.getElementById('player').volume += 0.1">
+              <i class="fas fa-volume-up"></i>
+            </button>
+            <button
+              class="voldown" onclick="document.getElementById('player').volume -= 0.1">
+              <i class="fas fa-volume-down"></i>
+            </button>
+            <button class="about" onclick="openAboutPage()">
+              <i class="fas fa-info-circle"></i>
+          </button>
+        <button class="goback"><a href="./index.html"><i class="fas fa-home"></i></a></button> 
+      </div>
+      <audio autoplay
+       loop
+      src="audio/memory.mp3" id="player">
+          Your browser does not support the
+           element.
+    </audio>
+
+<section class="hunt">
+    <div class="token" id="token">
+
+      
+       <!-- <img class="cup" src="./images/Vale.jpg" alt="Cup"  > -->
+       
+       <img class="cup" src="./images/Vale.jpg" alt="Cup" onclick="window.location.href='https://awoiaf.westeros.org/index.php/House_Arryn';">
+ 
+         <img  src="./images/riverland.jpg" class="gem" alt="Gem" onclick="window.location.href='https://awoiaf.westeros.org/index.php/House_Tully';">
+       <img  src="./images/reach.jpg" class="gem" alt="Gem" onclick="window.location.href='https://awoiaf.westeros.org/index.php/House_Tyrell';">
+        <div class="wand">
+            Explore the Seven Kingdoms!
+       </div>
+        </div>
+       <div class="second">
+      <img class="coat" src="images/westerland.jpg" alt="Coat" onclick="window.location.href='https://awoiaf.westeros.org/index.php/House_Lannister';">
+
+        <img class="snitch" src="./images/stormland.jpg" alt="Snitch" onclick="window.location.href='https://awoiaf.westeros.org/index.php/House_Baratheon';">
+       
+       <img class="sorted" src="./images/Iron.jpg" alt="Sorting Hat" onclick="window.location.href='https://awoiaf.westeros.org/index.php/House_Greyjoy';">
+        <img class="goblet" src="./images/NorthHouse.jpg" onclick="window.location.href='https://awoiaf.westeros.org/index.php/House_Stark';">
+        
+       
+        
+        
+
+</div>
+        </div>
+        
+        </section>
+            <script>
+        function move(event){
+            let X = event.clientX || event.touches[0].clientX;
+            let Y = event.clientY || event.touches[0].clientY;
+            document.documentElement.style.setProperty('--X',X+'px');
+            document.documentElement.style.setProperty('--Y',Y+'px');
+        }
+    
+        document.addEventListener('mousemove',move);
+        document.addEventListener('touchpad',move);
+    </script>
+
+    </section>
+</body>
+</html>

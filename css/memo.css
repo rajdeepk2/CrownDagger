@@ -1,0 +1,141 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+.bg {
+  /* background-image: url(../images/g0.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh; */
+
+  background-image: url('../images/gif2.gif');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: auto;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 55%;
+}
+
+.h1 span {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
+  justify-content: center;
+  width: 50px;
+  padding: 10px 50px;
+  color: brown;
+}
+.player {
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  /* margin-right: 500px; */
+  width: 25%;
+  height: max-content;
+}
+.player a.goback {
+  display: inline-block;
+  /* vertical-align: middle;  */
+
+}
+.play,
+.pause,
+.volup,
+.voldown,
+.about,
+.goback {
+  background-color: black;
+  box-shadow: rgb(224, 224, 40);
+  color: gold;
+  font-size: medium;
+
+  border: black;
+  width: 15%;
+  padding: 10px 10px;
+  margin: 2px 4px;
+  transition: transform 0.5s;
+}
+.play:hover,
+.pause:hover,
+.volup:hover,
+.voldown:hover,
+.about:hover,
+.goback:hover {
+  transform: scale(1);
+  background-color: rgb(206, 210, 233);
+  color: black;
+}
+.play {
+  font-size: small;
+  padding: 11px 10px;
+}
+.volup {
+  padding: 10px 10px 10px 5px;
+}
+.voldown {
+  font-size: large;
+  padding: 9px 10px;
+}
+.fa-home {
+  text-decoration: none;
+  color: rgb(253, 215, 0);
+}
+.fa-info-circle {
+  text-decoration: none;
+  color: rgb(253, 215, 0);
+}
+
+@media only screen and (max-width: 600px) {
+  #result {
+    padding: 500px 50px;
+  }
+
+  .play,
+  .pause,
+  .volup,
+  .voldown {
+    padding: 15px 20px;
+  }
+  .button {
+    width: 100px;
+    padding: 15px 0px;
+    margin: 4px 2px;
+    font-size: medium;
+    border-radius: 4px;
+    
+
+  }
+  .player {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+  }
+}
+#restartButton {
+  margin-top: 2px;
+  background-color: rgb(253, 215, 0); 
+  color: white; 
+  padding: 10px 20px; 
+  font-size: 16px; 
+  border: none; 
+  border-radius: 4px; 
+  cursor: pointer; 
+  margin-left:660px;
+}
+
+#restartButton:hover {
+  background-color: #c3c3c3; 
+  color:black;
+}
